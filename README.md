@@ -29,8 +29,17 @@ Please make sure to update tests as appropriate.
 
 If something of above is not installed in LabVIEW's intr.lib or vi.lib or user.lib folders, LabVIEW will vainly try to find necessery subVIs, whenever you open any project's VIs. If you click on **Ignore**, you can view a source code, but with blanck/broken subVIs.
 
-## Install
-
+## Description
+The software solution is based on modular concept via Queued Message Handler (QMH), Event driven state machine and producer-consumer loops.
+Several submodules were created to control 
 
 ## Usage
 
+## ToDo
+update README
+module for digitizer (requieres wrapper dll)
+module for UPS monitoring (with intermediate layer and for two options)
+mmodule for carousel sample holder ()
+generalize SMU module
+use OOP
+separate functional parts of the commanding module (core, isntrument manager, timer, measurement manager, data file manager, GUI)
