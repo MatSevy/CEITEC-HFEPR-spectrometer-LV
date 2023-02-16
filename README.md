@@ -36,10 +36,10 @@ Several submodules were created to control
 ## Usage
 
 ## ToDo
-update README
-module for digitizer (requieres wrapper dll)
-module for UPS monitoring (with intermediate layer and for two options)
-mmodule for carousel sample holder ()
-generalize SMU module
-use OOP
-separate functional parts of the commanding module (core, isntrument manager, timer, measurement manager, data file manager, GUI)
+-update README
+-module for digitizer (requieres wrapper dll)
+-module for UPS monitoring (with intermediate layer and for two options)
+-mmodule for carousel sample holder ()
+-generalize SMU module
+-use OOP
+-separate functional parts of the commanding module (core, isntrument manager, timer, measurement manager, data file manager, GUI)
