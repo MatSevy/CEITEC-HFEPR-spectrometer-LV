@@ -1,5 +1,5 @@
 # CEITEC-HFEPR-spectrometer-LV
-Public repository of a software for multi-functional HF-EPR spectrometer developed in LabVIEW at CEITEC BUT.
+Public repository of a software for multi-functional HF-EPR spectrometer developed in [LabVIEW] (https://www.ni.com/cs-cz/shop/software/products/labview.html) at CEITEC BUT.
 
 ## License
 GNU GPL v3
