@@ -1,14 +1,14 @@
 # CEITEC-HFEPR-spectrometer-LV
 Public repository of a software for multi-functional HF-EPR spectrometer developed in [LabVIEW] (https://www.ni.com/cs-cz/shop/software/products/labview.html) at CEITEC BUT.
 
+## Copyright owner
+[Brno University of Technology](https://www.vut.cz/en/) 2022
+
 ## License
 GNU GPL v3
 
-## Copyright
-Owner: [Central European Institute of Technology](https://www.ceitec.cz/) of [Brno University of Technology](https://www.vut.cz/en/
-) (CEITEC BUT) 2022
-
-Author: Matúš Šedivý member of [Magneto-Optical and THz Spectroscopy](https://spectroscopy.ceitec.cz/) (MOTES) research group
+## Developed by
+Matúš Šedivý - member of [Magneto-Optical and THz Spectroscopy](https://spectroscopy.ceitec.cz/) (MOTES) research group at [Central European Institute of Technology](https://www.ceitec.cz/) (CEITEC BUT)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
