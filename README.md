@@ -2,7 +2,7 @@
 Public repository of a software for multi-functional HF-EPR spectrometer developed in [LabVIEW](https://www.ni.com/cs-cz/shop/software/products/labview.html) at CEITEC BUT.
 
 ## Copyright owner
-[Brno University of Technology](https://www.vut.cz/en/) 2022
+[Brno University of Technology](https://www.vut.cz/en/) (BUT) 2022
 
 ## License
 GNU GPL v3
