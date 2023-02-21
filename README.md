@@ -26,6 +26,7 @@ Please make sure to update tests as appropriate.
 -	[Gpower toolset](https://www.vipm.io/package/gpower_lib_all/)
 -	Cryogenics Superconducting power supply SMS120C: Has to be requested from [Cryogenics Ltd](http://cryogenic.co.uk/contact) 
 -	Zurich Instruments MFLI - you can install whole [LabOne or only a LabVIEW API](https://www.zhinst.com/europe/en/support/download-center)
+-	Keithley 2450 LabVIEW driver is on [website](https://www.tek.com/en/support/software/driver/keithley-2450-2460-2461-2470-native-labview-2015) of Tektronix. (note: there might be also a newer version)
 
 If something of above is not installed in LabVIEW's intr.lib or vi.lib or user.lib folders, LabVIEW will vainly try to find necessery subVIs, whenever you open any project's VIs. If you click on **Ignore**, you can view a source code, but with blanck/broken subVIs.
 
