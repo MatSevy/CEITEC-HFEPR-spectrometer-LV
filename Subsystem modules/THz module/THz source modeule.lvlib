@@ -29,46 +29,6 @@ End: - / Master and Follower handle (string)
 		<Item Name="VDI config constants.ctl" Type="VI" URL="../ctl/VDI config constants.ctl"/>
 		<Item Name="VDI status.ctl" Type="VI" URL="../ctl/VDI status.ctl"/>
 	</Item>
-	<Item Name="Drivers" Type="Folder">
-		<Item Name="Set VDI Tracking Synth Offset" Type="Folder">
-			<Item Name="Actual Settings.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Actual Settings.vi"/>
-			<Item Name="bits to byte data.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/bits to byte data.vi"/>
-			<Item Name="Bundle reg commands.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Bundle reg commands.vi"/>
-			<Item Name="Check Synth Rev.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Check Synth Rev.vi"/>
-			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Convert property node font to graphics font.vi"/>
-			<Item Name="Create Bytes.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Create Bytes.vi"/>
-			<Item Name="Create command stream.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Create command stream.vi"/>
-			<Item Name="Create freq bytes.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Create freq bytes.vi"/>
-			<Item Name="Create RAM Packets.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Create RAM Packets.vi"/>
-			<Item Name="Determine opt step time, size.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Determine opt step time, size.vi"/>
-			<Item Name="FT_Close_Device.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Close_Device.vi"/>
-			<Item Name="FT_Get_Device_Info.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Get_Device_Info.vi"/>
-			<Item Name="FT_Get_Device_Serial_Number_By_Index.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Get_Device_Serial_Number_By_Index.vi"/>
-			<Item Name="FT_Get_Number_of_Devices.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Get_Number_of_Devices.vi"/>
-			<Item Name="FT_Open_Device_By_Serial_Number.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Open_Device_By_Serial_Number.vi"/>
-			<Item Name="FT_Read_Byte_Data.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Read_Byte_Data.vi"/>
-			<Item Name="FT_Reset_Device.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Reset_Device.vi"/>
-			<Item Name="FT_Write_Byte_Data.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/FT_Write_Byte_Data.vi"/>
-			<Item Name="Get minimum step size.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Get minimum step size.vi"/>
-			<Item Name="Get Text Rect.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Get Text Rect.vi"/>
-			<Item Name="Init Boot up.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Init Boot up.vi"/>
-			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Longest Line Length in Pixels.vi"/>
-			<Item Name="ma_patchErrorCode or Caller as Source.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/ma_patchErrorCode or Caller as Source.vi"/>
-			<Item Name="ma_Trap Fgen Parameter Errors.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/ma_Trap Fgen Parameter Errors.vi"/>
-			<Item Name="ma_Updatet0 DBL.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/ma_Updatet0 DBL.vi"/>
-			<Item Name="ma_Updatet0 timestamp.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/ma_Updatet0 timestamp.vi"/>
-			<Item Name="ma_Updatet0.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/ma_Updatet0.vi"/>
-			<Item Name="Open USB device.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Open USB device.vi"/>
-			<Item Name="RAM register CR.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/RAM register CR.vi"/>
-			<Item Name="Reset Trigger.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Reset Trigger.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Reset.vi"/>
-			<Item Name="Send data.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Send data.vi"/>
-			<Item Name="Set offset synthesizer.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Set offset synthesizer.vi"/>
-			<Item Name="Sine Waveform without dll.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Sine Waveform without dll.vi"/>
-			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Drivers/Set VDI Tracking Synth Offset.llb/Three Button Dialog CORE.vi"/>
-			<Item Name="Three Button Dialog.vi" Type="VI" URL="/M/Instrument/HFEPR spectrometer/Software developement/Separate libraries/THz VDI module/Drivers/Set VDI Tracking Synth Offset.llb/Three Button Dialog.vi"/>
-		</Item>
-	</Item>
 	<Item Name="private" Type="Folder">
 		<Item Name="Check command.vi" Type="VI" URL="../private/Check command.vi"/>
 		<Item Name="Initialize synthesizers.vi" Type="VI" URL="../private/Initialize synthesizers.vi"/>

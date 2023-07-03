@@ -72,7 +72,7 @@
 			<Item Name="Servo drive module.lvlib" Type="Library" URL="../../Subsystem modules/Servo drive module/Servo drive module.lvlib"/>
 			<Item Name="Source meter.lvlib" Type="Library" URL="../../Subsystem modules/Source meter/Source meter.lvlib"/>
 			<Item Name="Temperature controller.lvlib" Type="Library" URL="../../Subsystem modules/Temperature control module/Temperature controller.lvlib"/>
-			<Item Name="THz source modeule.lvlib" Type="Library" URL="../../Subsystem modules/THz VDI module/THz source modeule.lvlib"/>
+			<Item Name="THz source modeule.lvlib" Type="Library" URL="../../Subsystem modules/THz module/THz source modeule.lvlib"/>
 		</Item>
 		<Item Name="private" Type="Folder">
 			<Item Name="FGVs" Type="Folder"/>
@@ -344,7 +344,7 @@
 			</Item>
 			<Item Name="SystemPowerStatus.ctl" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/SystemPowerStatus.ctl"/>
 			<Item Name="Timeout dialoge Abbort.vi" Type="VI" URL="../TopSubVIs/Timeout dialoge Abbort.vi"/>
-			<Item Name="Translate Settings.vi" Type="VI" URL="../../Subsystem modules/THz VDI module/private/Translate Settings.vi"/>
+			<Item Name="Translate Settings.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Translate Settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
