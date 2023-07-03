@@ -31,10 +31,13 @@ End: - / Master and Follower handle (string)
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Item Name="Check command.vi" Type="VI" URL="../private/Check command.vi"/>
-		<Item Name="Initialize synthesizers.vi" Type="VI" URL="../private/Initialize synthesizers.vi"/>
-		<Item Name="Set sweep parameters.vi" Type="VI" URL="../private/Set sweep parameters.vi"/>
+		<Item Name="Initialize APSVG.vi" Type="VI" URL="../private/Initialize APSVG.vi"/>
+		<Item Name="Initialize VDI synthesizers.vi" Type="VI" URL="../private/Initialize VDI synthesizers.vi"/>
+		<Item Name="Set APSVG parameters.vi" Type="VI" URL="../private/Set APSVG parameters.vi"/>
+		<Item Name="Set VDI sweep parameters.vi" Type="VI" URL="../private/Set VDI sweep parameters.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
+		<Item Name="Module for APVSG.vi" Type="VI" URL="../public/Module for APVSG.vi"/>
 		<Item Name="Module for RF and LO synthesizer.vi" Type="VI" URL="../public/Module for RF and LO synthesizer.vi"/>
 	</Item>
 	<Item Name="test" Type="Folder">
