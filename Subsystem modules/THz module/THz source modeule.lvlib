@@ -24,6 +24,7 @@ End: - / Master and Follower handle (string)
 		<Item Name="THz commands enum.ctl" Type="VI" URL="../ctl/THz commands enum.ctl"/>
 		<Item Name="THz CW parameters.ctl" Type="VI" URL="../ctl/THz CW parameters.ctl"/>
 		<Item Name="THz Message for module.ctl" Type="VI" URL="../ctl/THz Message for module.ctl"/>
+		<Item Name="THz MW generator constants.ctl" Type="VI" URL="../ctl/THz MW generator constants.ctl"/>
 		<Item Name="THz operation mode enum.ctl" Type="VI" URL="../ctl/THz operation mode enum.ctl"/>
 		<Item Name="THz sweep parameters.ctl" Type="VI" URL="../ctl/THz sweep parameters.ctl"/>
 		<Item Name="VDI config constants.ctl" Type="VI" URL="../ctl/VDI config constants.ctl"/>
@@ -44,4 +45,6 @@ End: - / Master and Follower handle (string)
 		<Item Name="fake THz module.vi" Type="VI" URL="../test/fake THz module.vi"/>
 		<Item Name="THz Test controller.vi" Type="VI" URL="../test/THz Test controller.vi"/>
 	</Item>
+	<Item Name="Set freq pow and Ch.vi" Type="VI" URL="../private/Set freq pow and Ch.vi"/>
+	<Item Name="THz report connection.vi" Type="VI" URL="../private/THz report connection.vi"/>
 </Library>
