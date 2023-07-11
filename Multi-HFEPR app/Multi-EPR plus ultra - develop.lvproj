@@ -329,6 +329,7 @@
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Initialize synthesizers.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Initialize synthesizers.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/System32/kernel32.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Module name.ctl" Type="VI" URL="../../Subsystem modules/Messenger service/Data types/Module name.ctl"/>
@@ -338,6 +339,7 @@
 			</Item>
 			<Item Name="OSC sampling rate.ctl" Type="VI" URL="../../Subsystem modules/Lock-in module/ctl/OSC sampling rate.ctl"/>
 			<Item Name="Positoin to set.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Positoin to set.ctl"/>
+			<Item Name="Set sweep parameters.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Set sweep parameters.vi"/>
 			<Item Name="SMU settings.ctl" Type="VI" URL="../../Subsystem modules/Source meter/ctls/SMU settings.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
