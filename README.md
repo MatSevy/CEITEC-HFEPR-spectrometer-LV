@@ -11,6 +11,7 @@ GNU GPL v3
 Matúš Šedivý - member of [Magneto-Optical and THz Spectroscopy](https://spectroscopy.ceitec.cz/) (MOTES) research group at [Central European Institute of Technology](https://www.ceitec.cz/) (CEITEC BUT)
 
 ## Contributing
+Original repository is located on [GitHub](https://github.com/MatSevy/CEITEC-HFEPR-spectrometer-LV).
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
