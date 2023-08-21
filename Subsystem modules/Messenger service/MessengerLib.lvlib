@@ -4,12 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Data types" Type="Folder">
-		<Item Name="Mailbox address of Top.ctl" Type="VI" URL="../Data types/Mailbox address of Top.ctl"/>
 		<Item Name="Mailbox address.ctl" Type="VI" URL="../Data types/Mailbox address.ctl"/>
 		<Item Name="Message data.ctl" Type="VI" URL="../Data types/Message data.ctl"/>
 		<Item Name="Messenger referencies.ctl" Type="VI" URL="../Data types/Messenger referencies.ctl"/>
 		<Item Name="Modul ref.ctl" Type="VI" URL="../Data types/Modul ref.ctl"/>
-		<Item Name="Modul reference.ctl" Type="VI" URL="../Data types/Modul reference.ctl"/>
+		<Item Name="Module name.ctl" Type="VI" URL="../Data types/Module name.ctl"/>
 		<Item Name="MSG to TOP.ctl" Type="VI" URL="../Data types/MSG to TOP.ctl"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
@@ -20,7 +19,6 @@
 		<Item Name="Initialize all mailboxes.vi" Type="VI" URL="../Methodes/Initialize all mailboxes.vi"/>
 		<Item Name="Initialize mailbox.vi" Type="VI" URL="../Methodes/Initialize mailbox.vi"/>
 		<Item Name="Initialize Messenger.vi" Type="VI" URL="../Methodes/Initialize Messenger.vi"/>
-		<Item Name="Put in mailbox.vi" Type="VI" URL="../Methodes/Put in mailbox.vi"/>
 		<Item Name="Receive message by TOP.vi" Type="VI" URL="../Methodes/Receive message by TOP.vi"/>
 		<Item Name="Receive messege by module.vi" Type="VI" URL="../Methodes/Receive messege by module.vi"/>
 		<Item Name="Send message to Top.vi" Type="VI" URL="../Methodes/Send message to Top.vi"/>

@@ -12,6 +12,7 @@
 	<Item Name="ctls" Type="Folder">
 		<Item Name="MSG to SMU.ctl" Type="VI" URL="../ctls/MSG to SMU.ctl"/>
 		<Item Name="SMU Commands.ctl" Type="VI" URL="../ctls/SMU Commands.ctl"/>
+		<Item Name="SMU settings.ctl" Type="VI" URL="../ctls/SMU settings.ctl"/>
 		<Item Name="SMU status.ctl" Type="VI" URL="../ctls/SMU status.ctl"/>
 	</Item>
 	<Item Name="private" Type="Folder">

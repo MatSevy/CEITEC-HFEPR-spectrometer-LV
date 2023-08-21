@@ -137,6 +137,8 @@
 		<Item Name="Magnet module states.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/Magnet module states.ctl"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
+		<Item Name="Power monitor main.vi" Type="VI" URL="../../Subsystem modules/Power monitor/Power monitor main.vi"/>
+		<Item Name="Power monitor.lvlib" Type="Library" URL="../../Subsystem modules/Magnet module/submodules/Power monitor/Power monitor.lvlib"/>
 		<Item Name="TM states.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/TM states.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -326,26 +328,24 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="Change operation mode.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/Change operation mode.ctl"/>
-			<Item Name="dotNET PowerModeChanged Handler.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged Handler.vi"/>
-			<Item Name="dotNET PowerModeChanged.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged.vi"/>
+			<Item Name="dotNET PowerModeChanged Handler.vi" Type="VI" URL="../../Subsystem modules/Magnet module/submodules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged Handler.vi"/>
+			<Item Name="dotNET PowerModeChanged.vi" Type="VI" URL="../../Subsystem modules/Magnet module/submodules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged.vi"/>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/System32/kernel32.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Module name.ctl" Type="VI" URL="../../Subsystem modules/Messenger service/Data types/Module name.ctl"/>
 			<Item Name="Motion Properties.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Motion Properties.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="OSC sampling rate.ctl" Type="VI" URL="../../Subsystem modules/Lock-in module/ctl/OSC sampling rate.ctl"/>
 			<Item Name="Positoin to set.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Positoin to set.ctl"/>
-			<Item Name="Power monitor.lvlib" Type="Library" URL="../../Subsystem modules/Power monitor/Power monitor.lvlib"/>
-			<Item Name="SMU settings.ctl" Type="VI" URL="../../Subsystem modules/Source meter/ctls/SMU settings.ctl"/>
+			<Item Name="Put in mailbox.vi" Type="VI" URL="../../Subsystem modules/Messenger service/Methodes/Put in mailbox.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SystemPowerStatus.ctl" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/SystemPowerStatus.ctl"/>
+			<Item Name="SystemPowerStatus.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/submodules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/SystemPowerStatus.ctl"/>
 			<Item Name="Timeout dialoge Abbort.vi" Type="VI" URL="../TopSubVIs/Timeout dialoge Abbort.vi"/>
 			<Item Name="Translate Settings.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Translate Settings.vi"/>
 		</Item>

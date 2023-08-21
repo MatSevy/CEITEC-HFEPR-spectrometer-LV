@@ -32,40 +32,27 @@
 			<Item Name="Magnet constants FGV.vi" Type="VI" URL="../private/FGVs/Magnet constants FGV.vi"/>
 			<Item Name="SMS data FGV.vi" Type="VI" URL="../private/FGVs/SMS data FGV.vi"/>
 		</Item>
-		<Item Name="Check operation mode.vi" Type="VI" URL="../private/Check operation mode.vi"/>
 		<Item Name="Check temperature warnings.vi" Type="VI" URL="../private/Check temperature warnings.vi"/>
-		<Item Name="Current to Field Converter.vi" Type="VI" URL="../private/Current to Field Converter.vi"/>
-		<Item Name="Current to Field.vi" Type="VI" URL="../private/Current to Field.vi"/>
 		<Item Name="Evaluate magnet status.vi" Type="VI" URL="../private/Evaluate magnet status.vi"/>
 		<Item Name="Field to Current Converter.vi" Type="VI" URL="../private/Field to Current Converter.vi"/>
-		<Item Name="Field_C action on update.vi" Type="VI" URL="../private/Field_C action on update.vi"/>
-		<Item Name="Field_C evaluate status.vi" Type="VI" URL="../private/Field_C evaluate status.vi"/>
-		<Item Name="Field_C open msg.vi" Type="VI" URL="../private/Field_C open msg.vi"/>
-		<Item Name="Field_C process Set field cmd.vi" Type="VI" URL="../private/Field_C process Set field cmd.vi"/>
-		<Item Name="Field_C switch mode.vi" Type="VI" URL="../private/Field_C switch mode.vi"/>
 		<Item Name="Ignore command if not initialized.vi" Type="VI" URL="../private/Ignore command if not initialized.vi"/>
-		<Item Name="Initialize PSU.vi" Type="VI" URL="../private/Initialize PSU.vi"/>
-		<Item Name="Is equal in tolerance.vi" Type="VI" URL="../private/Is equal in tolerance.vi"/>
 		<Item Name="Magnet next action.vi" Type="VI" URL="../private/Magnet next action.vi"/>
 		<Item Name="MS debouncer FGV.vi" Type="VI" URL="../private/MS debouncer FGV.vi"/>
 		<Item Name="MS Is array same.vi" Type="VI" URL="../private/MS Is array same.vi"/>
 		<Item Name="Next ramp and field.vi" Type="VI" URL="../private/Next ramp and field.vi"/>
-		<Item Name="Ramp field.vi" Type="VI" URL="../private/Ramp field.vi"/>
-		<Item Name="Ramping direction.vi" Type="VI" URL="../private/Ramping direction.vi"/>
 		<Item Name="Read magnet system configuration.vi" Type="VI" URL="../private/Read magnet system configuration.vi"/>
 		<Item Name="Read message.vi" Type="VI" URL="../private/Read message.vi"/>
 		<Item Name="Status changed.vi" Type="VI" URL="../private/Status changed.vi"/>
-		<Item Name="TM update all.vi" Type="VI" URL="../private/TM update all.vi"/>
-		<Item Name="Tmp_M Initialize.vi" Type="VI" URL="../private/Tmp_M Initialize.vi"/>
-		<Item Name="Tmp_M open msg.vi" Type="VI" URL="../private/Tmp_M open msg.vi"/>
-		<Item Name="Update PSU.vi" Type="VI" URL="../private/Update PSU.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV magnet initialized.vi" Type="VI" URL="../public/FGV magnet initialized.vi"/>
-		<Item Name="Magnet manager.vi" Type="VI" URL="../public/Magnet manager.vi"/>
+		<Item Name="Magnet controller.vi" Type="VI" URL="../public/Magnet controller.vi"/>
 		<Item Name="MagnetTop.vi" Type="VI" URL="../MagnetTop.vi"/>
-		<Item Name="PSU_C submodule.vi" Type="VI" URL="../public/PSU_C submodule.vi"/>
-		<Item Name="Tmp_M submodule.vi" Type="VI" URL="../public/Tmp_M submodule.vi"/>
+	</Item>
+	<Item Name="submodules" Type="Folder">
+		<Item Name="F-70 controller.lvlib" Type="Library" URL="../submodules/F-70 compressor controller/F-70 controller/F-70 controller.lvlib"/>
+		<Item Name="Power monitor.lvlib" Type="Library" URL="../submodules/Power monitor/Power monitor.lvlib"/>
+		<Item Name="PSU controller.lvlib" Type="Library" URL="../submodules/PSU controller/PSU controller.lvlib"/>
 	</Item>
 	<Item Name="test" Type="Folder">
 		<Item Name="fake main magnet module.vi" Type="VI" URL="../test/fake main magnet module.vi"/>
