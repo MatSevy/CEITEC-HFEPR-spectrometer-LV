@@ -10,7 +10,6 @@
 	<Item Name="ctl" Type="Folder">
 		<Item Name="Actual magnet state.ctl" Type="VI" URL="../ctl/Actual magnet state.ctl"/>
 		<Item Name="Actual magnet status.ctl" Type="VI" URL="../ctl/Actual magnet status.ctl"/>
-		<Item Name="Change operation mode.ctl" Type="VI" URL="../ctl/Change operation mode.ctl"/>
 		<Item Name="Cryostat temperature sensors.ctl" Type="VI" URL="../ctl/Cryostat temperature sensors.ctl"/>
 		<Item Name="FGV action.ctl" Type="VI" URL="../ctl/FGV action.ctl"/>
 		<Item Name="Magnet config constants.ctl" Type="VI" URL="../ctl/Magnet config constants.ctl"/>
@@ -63,9 +62,10 @@
 	</Item>
 	<Item Name="public" Type="Folder">
 		<Item Name="FGV magnet initialized.vi" Type="VI" URL="../public/FGV magnet initialized.vi"/>
-		<Item Name="Field_C.vi" Type="VI" URL="../public/Field_C.vi"/>
+		<Item Name="Magnet manager.vi" Type="VI" URL="../public/Magnet manager.vi"/>
 		<Item Name="MagnetTop.vi" Type="VI" URL="../MagnetTop.vi"/>
-		<Item Name="Tmp_M Main.vi" Type="VI" URL="../public/Tmp_M Main.vi"/>
+		<Item Name="PSU_C submodule.vi" Type="VI" URL="../public/PSU_C submodule.vi"/>
+		<Item Name="Tmp_M submodule.vi" Type="VI" URL="../public/Tmp_M submodule.vi"/>
 	</Item>
 	<Item Name="test" Type="Folder">
 		<Item Name="fake main magnet module.vi" Type="VI" URL="../test/fake main magnet module.vi"/>

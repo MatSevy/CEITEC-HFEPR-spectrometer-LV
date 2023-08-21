@@ -67,7 +67,6 @@
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Lock-in module.lvlib" Type="Library" URL="../../Subsystem modules/Lock-in module/Lock-in module.lvlib"/>
 			<Item Name="Magnet module.lvlib" Type="Library" URL="../../Subsystem modules/Magnet module/Magnet module.lvlib"/>
-			<Item Name="Power monitor.lvlib" Type="Library" URL="../../Subsystem modules/Power monitor/Power monitor.lvlib"/>
 			<Item Name="SampleRotator.lvlib" Type="Library" URL="../../Subsystem modules/Sample rotator/SampleRotator.lvlib"/>
 			<Item Name="Servo drive module.lvlib" Type="Library" URL="../../Subsystem modules/Servo drive module/Servo drive module.lvlib"/>
 			<Item Name="Source meter.lvlib" Type="Library" URL="../../Subsystem modules/Source meter/Source meter.lvlib"/>
@@ -135,8 +134,10 @@
 		</Item>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
+		<Item Name="Magnet module states.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/Magnet module states.ctl"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
+		<Item Name="TM states.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/TM states.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_Dis-Connect.vi"/>
@@ -324,12 +325,12 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="Change operation mode.ctl" Type="VI" URL="../../Subsystem modules/Magnet module/ctl/Change operation mode.ctl"/>
 			<Item Name="dotNET PowerModeChanged Handler.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged Handler.vi"/>
 			<Item Name="dotNET PowerModeChanged.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged.vi"/>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Initialize synthesizers.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Initialize synthesizers.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/System32/kernel32.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Module name.ctl" Type="VI" URL="../../Subsystem modules/Messenger service/Data types/Module name.ctl"/>
@@ -339,7 +340,7 @@
 			</Item>
 			<Item Name="OSC sampling rate.ctl" Type="VI" URL="../../Subsystem modules/Lock-in module/ctl/OSC sampling rate.ctl"/>
 			<Item Name="Positoin to set.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Positoin to set.ctl"/>
-			<Item Name="Set sweep parameters.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Set sweep parameters.vi"/>
+			<Item Name="Power monitor.lvlib" Type="Library" URL="../../Subsystem modules/Power monitor/Power monitor.lvlib"/>
 			<Item Name="SMU settings.ctl" Type="VI" URL="../../Subsystem modules/Source meter/ctls/SMU settings.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
