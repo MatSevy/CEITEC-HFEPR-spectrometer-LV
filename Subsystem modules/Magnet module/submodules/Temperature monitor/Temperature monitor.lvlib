@@ -8,16 +8,21 @@
 
 </Property>
 	<Item Name="private" Type="Folder">
-		<Item Name="TM update all.vi" Type="VI" URL="../private/TM update all.vi"/>
-		<Item Name="Tmp_M Initialize.vi" Type="VI" URL="../private/Tmp_M Initialize.vi"/>
-		<Item Name="Tmp_M open msg.vi" Type="VI" URL="../private/Tmp_M open msg.vi"/>
+		<Item Name="TM Initialize LSC218.vi" Type="VI" URL="../private/TM Initialize LSC218.vi"/>
+		<Item Name="TM open msg.vi" Type="VI" URL="../private/TM open msg.vi"/>
+		<Item Name="TM process commands.vi" Type="VI" URL="../private/TM process commands.vi"/>
+		<Item Name="TM update all LSC218.vi" Type="VI" URL="../private/TM update all LSC218.vi"/>
 	</Item>
 	<Item Name="public" Type="Folder">
-		<Item Name="Tmp_M submodule.vi" Type="VI" URL="../public/Tmp_M submodule.vi"/>
+		<Item Name="TM submodule LSC218.vi" Type="VI" URL="../public/TM submodule LSC218.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="TM Revision.ctl" Type="VI" URL="../Typedefs/TM Revision.ctl"/>
+		<Item Name="TM_commands.ctl" Type="VI" URL="../Typedefs/TM_commands.ctl"/>
+		<Item Name="TM_msg to module.ctl" Type="VI" URL="../Typedefs/TM_msg to module.ctl"/>
+		<Item Name="TM_revision.ctl" Type="VI" URL="../Typedefs/TM_revision.ctl"/>
+		<Item Name="TM_sensors.ctl" Type="VI" URL="../Typedefs/TM_sensors.ctl"/>
+		<Item Name="TM_states.ctl" Type="VI" URL="../Typedefs/TM_states.ctl"/>
 		<Item Name="TM_status.ctl" Type="VI" URL="../Typedefs/TM_status.ctl"/>
-		<Item Name="Tmp_M commands.ctl" Type="VI" URL="../Typedefs/Tmp_M commands.ctl"/>
 	</Item>
+	<Item Name="TM response upon error.vi" Type="VI" URL="../private/TM response upon error.vi"/>
 </Library>

@@ -10,7 +10,6 @@
 	<Item Name="ctl" Type="Folder">
 		<Item Name="Actual magnet state.ctl" Type="VI" URL="../ctl/Actual magnet state.ctl"/>
 		<Item Name="Actual magnet status.ctl" Type="VI" URL="../ctl/Actual magnet status.ctl"/>
-		<Item Name="Cryostat temperature sensors.ctl" Type="VI" URL="../ctl/Cryostat temperature sensors.ctl"/>
 		<Item Name="FGV action.ctl" Type="VI" URL="../ctl/FGV action.ctl"/>
 		<Item Name="Magnet config constants.ctl" Type="VI" URL="../ctl/Magnet config constants.ctl"/>
 		<Item Name="Magnet mode public.ctl" Type="VI" URL="../ctl/Magnet mode public.ctl"/>
@@ -18,13 +17,10 @@
 		<Item Name="Magnet Orders.ctl" Type="VI" URL="../ctl/Magnet Orders.ctl"/>
 		<Item Name="MagnetStates.ctl" Type="VI" URL="../ctl/MagnetStates.ctl"/>
 		<Item Name="MSG to magnet.ctl" Type="VI" URL="../ctl/MSG to magnet.ctl"/>
-		<Item Name="MSG to Tmp_M.ctl" Type="VI" URL="../ctl/MSG to Tmp_M.ctl"/>
 		<Item Name="Overall status.ctl" Type="VI" URL="../ctl/Overall status.ctl"/>
 		<Item Name="Ramping output" Type="VI" URL="../ctl/Ramping output"/>
 		<Item Name="SetField data.ctl" Type="VI" URL="../ctl/SetField data.ctl"/>
 		<Item Name="SetField.ctl" Type="VI" URL="../ctl/SetField.ctl"/>
-		<Item Name="TM Revision.ctl" Type="VI" URL="../ctl/TM Revision.ctl"/>
-		<Item Name="Tmp_M commands.ctl" Type="VI" URL="../ctl/Tmp_M commands.ctl"/>
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Item Name="FGVs" Type="Folder">
