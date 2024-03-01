@@ -133,6 +133,7 @@
 			<Item Name="verify executabiity of line.vi" Type="VI" URL="../TopSubVIs/verify executabiity of line.vi"/>
 			<Item Name="Write in logger.vi" Type="VI" URL="../TopSubVIs/Write in logger.vi"/>
 		</Item>
+		<Item Name="APVSG module action.ctl" Type="VI" URL="../../Subsystem modules/THz module/ctl/APVSG module action.ctl"/>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
