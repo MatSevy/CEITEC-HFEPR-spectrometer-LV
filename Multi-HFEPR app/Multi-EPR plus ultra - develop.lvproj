@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="24008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -141,7 +141,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_Dis-Connect.vi"/>
 				<Item Name="ANC350v4_Discover.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_Discover.vi"/>
-				<Item Name="ANC350v4_ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_ErrorHandler.vi"/>
 				<Item Name="ANC350v4_GetActuatorName.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_GetActuatorName.vi"/>
 				<Item Name="ANC350v4_GetActuatorType.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_GetActuatorType.vi"/>
 				<Item Name="ANC350v4_GetAxisStatus.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_GetAxisStatus.vi"/>
@@ -164,90 +163,107 @@
 				<Item Name="ANC350v4sub_setAmplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4sub_setAmplitude.vi"/>
 				<Item Name="ANC350v4sub_setFrequency.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4sub_setFrequency.vi"/>
 				<Item Name="Check Synth Rev.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Check Synth Rev.vi"/>
-				<Item Name="Create Bytes.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Create Bytes.vi"/>
+				<Item Name="Clear Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Clear Buffer.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Close.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Close.vi"/>
+				<Item Name="Configure Autozero.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Autozero.vi"/>
+				<Item Name="Configure Heater Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Configure/Configure Heater Output.vi"/>
+				<Item Name="Configure Integration Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Integration Filter.vi"/>
+				<Item Name="Configure Measurement Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Function.vi"/>
+				<Item Name="Configure Measurement Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Range.vi"/>
+				<Item Name="Configure Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Output.vi"/>
+				<Item Name="Configure Setpoint and Ramp.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Configure/Configure Setpoint and Ramp.vi"/>
+				<Item Name="Configure Source Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source Function.vi"/>
 				<Item Name="Create command stream.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Create command stream.vi"/>
-				<Item Name="Create freq bytes.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Create freq bytes.vi"/>
-				<Item Name="Cryogenic Ltd SMSXXX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/SMS drivers/Cryogenic Ltd SMSXXX.lvlib"/>
-				<Item Name="Determine opt step time, size.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Determine opt step time, size.vi"/>
+				<Item Name="Data Sensor.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 218/Public/Data/Data Sensor.vi"/>
+				<Item Name="Emit Beep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Emit Beep.vi"/>
+				<Item Name="Enable High Capacitance.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable High Capacitance.vi"/>
+				<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/Enable Output.vi"/>
+				<Item Name="Enable Remote Sensing.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/Enable Remote Sensing.vi"/>
+				<Item Name="Enable Source Read Back.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Source Read Back.vi"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Error Query.vi"/>
 				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Close_Device.vi"/>
 				<Item Name="FT_Get_Device_Info.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Get_Device_Info.vi"/>
-				<Item Name="FT_Get_Device_Serial_Number_By_Index.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Get_Device_Serial_Number_By_Index.vi"/>
-				<Item Name="FT_Get_Number_of_Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Get_Number_of_Devices.vi"/>
-				<Item Name="FT_Open_Device_By_Serial_Number.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Open_Device_By_Serial_Number.vi"/>
-				<Item Name="FT_Read_Byte_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Read_Byte_Data.vi"/>
-				<Item Name="FT_Reset_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Reset_Device.vi"/>
-				<Item Name="FT_Write_Byte_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/FT_Write_Byte_Data.vi"/>
-				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
-				<Item Name="Lake Shore 350.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 350/Lake Shore 350.lvlib"/>
-				<Item Name="Lake Shore Cryotronics 218.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 218/Lake Shore Cryotronics 218.lvlib"/>
+				<Item Name="Get Current Direction.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Data/Get Current Direction.vi"/>
+				<Item Name="Get Data Format.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Data Format.vi"/>
+				<Item Name="Get Full Update.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Data/Get Full Update.vi"/>
+				<Item Name="Get Min-Max Ranges.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Get Min-Max Ranges.vi"/>
+				<Item Name="Get Output.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Data/Get Output.vi"/>
+				<Item Name="Get Ramp Status.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Data/Get Ramp Status.vi"/>
+				<Item Name="Get Source Level.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Level.vi"/>
+				<Item Name="Heater Output Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Data/Heater Output Data.vi"/>
+				<Item Name="Initialise.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Initialise.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Initialize.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Initialize.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 218/Public/Initialize.vi"/>
 				<Item Name="Open USB device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Open USB device.vi"/>
+				<Item Name="Output Range and Manual Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Action-Status/Output Range and Manual Status.vi"/>
+				<Item Name="PSU Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/PSU Status.ctl"/>
+				<Item Name="Ramp.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Ramp.vi"/>
+				<Item Name="Read (Single Point).vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Read (Single Point).vi"/>
 				<Item Name="Reset Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Reset Trigger.vi"/>
+				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Revision Query.vi"/>
+				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Utility/Revision Query.vi"/>
+				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 218/Public/Utility/Revision Query.vi"/>
+				<Item Name="Select Active Terminals.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Select Active Terminals.vi"/>
+				<Item Name="Select Tesla or Amps.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Select Tesla or Amps.vi"/>
+				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Self-Test.vi"/>
 				<Item Name="Send data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI main synth/Set VDI Synthesizer r4.llb/Send data.vi"/>
-				<Item Name="SMS.rtm" Type="Document" URL="/&lt;instrlib&gt;/SMS drivers/Examples/SMS.rtm"/>
-				<Item Name="Zurich Instruments LabOne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Zurich Instruments LabOne.lvlib"/>
+				<Item Name="Sensor Data (Single Reading).vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Data/Sensor Data (Single Reading).vi"/>
+				<Item Name="Sensor Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Data/Sensor Data.vi"/>
+				<Item Name="Set Buffer Filling Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Set Buffer Filling Mode.vi"/>
+				<Item Name="Set Current Direction.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Configure/Set Current Direction.vi"/>
+				<Item Name="Set Display Screen.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Set Display Screen.vi"/>
+				<Item Name="Set Heater.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Set Heater.vi"/>
+				<Item Name="Set MID.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Configure/Set MID.vi"/>
+				<Item Name="Set Pause.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Set Pause.vi"/>
+				<Item Name="Set Ramp Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Configure/Set Ramp Rate.vi"/>
+				<Item Name="Setpoint Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Action-Status/Setpoint Status.vi"/>
+				<Item Name="Thermocouple Junction Temperature Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Lake Shore 350/Public/Data/Thermocouple Junction Temperature Data.vi"/>
+				<Item Name="ziCheckVersion.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Utility/ziCheckVersion.vi"/>
+				<Item Name="ziClose.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/ziClose.vi"/>
+				<Item Name="ziGetValue.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziGetValue.vi"/>
+				<Item Name="ziGetValueDemodSampleEx.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziGetValueDemodSampleEx.vi"/>
+				<Item Name="ziGetValueDouble.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziGetValueDouble.vi"/>
+				<Item Name="ziList.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Utility/ziList.vi"/>
+				<Item Name="ziModClear.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModClear.vi"/>
+				<Item Name="ziModExecute.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModExecute.vi"/>
+				<Item Name="ziModGetData.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModGetData.vi"/>
+				<Item Name="ziModGetNextNode.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModGetNextNode.vi"/>
+				<Item Name="ziModGetScopeWave.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModGetScopeWave.vi"/>
+				<Item Name="ziModRead.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModRead.vi"/>
+				<Item Name="ziModSetValue.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModSetValue.vi"/>
+				<Item Name="ziModSetValueBinary.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModSetValueBinary.vi"/>
+				<Item Name="ziModSetValueDoubleArray.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModSetValueDoubleArray.vi"/>
+				<Item Name="ziModStart.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModStart.vi"/>
+				<Item Name="ziModSubscribe.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziModSubscribe.vi"/>
+				<Item Name="ziOpen.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/ziOpen.vi"/>
+				<Item Name="ziSetValue.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziSetValue.vi"/>
+				<Item Name="ziSetValueDemod.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziSetValueDemod.vi"/>
+				<Item Name="ziSetValueDouble.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziSetValueDouble.vi"/>
+				<Item Name="ziSetValueDoubleArray.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Configure/ziSetValueDoubleArray.vi"/>
+				<Item Name="ziSubscribe.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Data/ziSubscribe.vi"/>
+				<Item Name="ziSync.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Data/ziSync.vi"/>
+				<Item Name="ziTypeDemodSampleSingle.ctl" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Data/ziTypeDemodSampleSingle.ctl"/>
+				<Item Name="ziTypeHandle.ctl" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/ziTypeHandle.ctl"/>
+				<Item Name="ziTypeModEnum.ctl" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziTypeModEnum.ctl"/>
+				<Item Name="ziTypeModHandle.ctl" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Modules/ziTypeModHandle.ctl"/>
+				<Item Name="ziUnSubscribe.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Public/Data/ziUnSubscribe.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
-				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
-				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
-				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
-				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
-				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
-				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
-				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
-				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
 				<Item Name="MGI Average (DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (DBL[]).vi"/>
-				<Item Name="MGI Average (DBL[][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (DBL[][]).vi"/>
 				<Item Name="MGI Average (SGL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (SGL[]).vi"/>
-				<Item Name="MGI Average (SGL[][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (SGL[][]).vi"/>
 				<Item Name="MGI Average.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average.vi"/>
-				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
-				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
-				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
-				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
-				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
-				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name=".NET Object to Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object to Variant.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Average.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Numeric/Library/Average.vi"/>
+				<Item Name="AvrgDBL.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Numeric/Library/Average/AvrgDBL.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
@@ -261,13 +277,32 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="eal4LabVIEW.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/eal4LabVIEW.lvlib"/>
+				<Item Name="ealApiConnect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/ApiLib/Connection control/ealApiConnect.vi"/>
+				<Item Name="ealApiConnect_string_UInt32.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/ApiLib/Connection control/ealApiConnect_string_UInt32.vi"/>
+				<Item Name="ealApiDisconnect.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/ApiLib/Connection control/ealApiDisconnect.vi"/>
+				<Item Name="ealApiIsConnected.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/ApiLib/Connection control/ealApiIsConnected.vi"/>
+				<Item Name="ealMotionClearError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionClearError.vi"/>
+				<Item Name="ealMotionGetAccelerationLimitBip.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetAccelerationLimitBip.vi"/>
+				<Item Name="ealMotionGetActualPosition.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetActualPosition.vi"/>
+				<Item Name="ealMotionGetDiagnosisNumber.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetDiagnosisNumber.vi"/>
+				<Item Name="ealMotionGetDiagnosisText.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetDiagnosisText.vi"/>
+				<Item Name="ealMotionGetIsError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetIsError.vi"/>
+				<Item Name="ealMotionGetName.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetName.vi"/>
+				<Item Name="ealMotionGetPositionLimitNeg.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetPositionLimitNeg.vi"/>
+				<Item Name="ealMotionGetPositionLimitPos.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetPositionLimitPos.vi"/>
+				<Item Name="ealMotionGetState.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetState.vi"/>
+				<Item Name="ealMotionGetTargetPosReached.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetTargetPosReached.vi"/>
+				<Item Name="ealMotionGetVelocityLimitNeg.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetVelocityLimitNeg.vi"/>
+				<Item Name="ealMotionGetVelocityLimitPos.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionGetVelocityLimitPos.vi"/>
+				<Item Name="ealMotionMoveAbsolute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Movement functions/ealMotionMoveAbsolute.vi"/>
+				<Item Name="ealMotionPower.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Movement functions/ealMotionPower.vi"/>
+				<Item Name="ealMotionSetCondition.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Motion configuration/ealMotionSetCondition.vi"/>
+				<Item Name="ealMotionStop.vi" Type="VI" URL="/&lt;vilib&gt;/addons/eal4LabVIEW/MotionLib/Movement functions/ealMotionStop.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="f10c1b4064bda42e" Type="VI" URL="/&lt;vilib&gt;/Addons/eal4LabVIEW/dlls/f10c1b4064bda42e"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
@@ -278,27 +313,18 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GPNumeric.lvlib" Type="Library" URL="/&lt;vilib&gt;/GPower/Numeric/GPNumeric.lvlib"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -309,39 +335,21 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
-				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="dotNET PowerModeChanged Handler.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged Handler.vi"/>
 			<Item Name="dotNET PowerModeChanged.vi" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/dotNET PowerModeChanged.vi"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/System32/kernel32.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Module name.ctl" Type="VI" URL="../../Subsystem modules/Messenger service/Data types/Module name.ctl"/>
 			<Item Name="Motion Properties.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Motion Properties.ctl"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="OSC sampling rate.ctl" Type="VI" URL="../../Subsystem modules/Lock-in module/ctl/OSC sampling rate.ctl"/>
 			<Item Name="Positoin to set.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Positoin to set.ctl"/>
 			<Item Name="SMU settings.ctl" Type="VI" URL="../../Subsystem modules/Source meter/ctls/SMU settings.ctl"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SystemPowerStatus.ctl" Type="VI" URL="../../Subsystem modules/Power monitor/.net PowerModeChanged/dotNET PowerModeChanged.llb/SystemPowerStatus.ctl"/>
 			<Item Name="Timeout dialoge Abbort.vi" Type="VI" URL="../TopSubVIs/Timeout dialoge Abbort.vi"/>
 			<Item Name="Translate Settings.vi" Type="VI" URL="../../Subsystem modules/THz module/private/Translate Settings.vi"/>
