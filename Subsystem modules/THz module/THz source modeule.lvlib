@@ -19,6 +19,8 @@ End: - / Master and Follower handle (string)
 
 </Property>
 	<Item Name="ctl" Type="Folder">
+		<Item Name="APVSG module action.ctl" Type="VI" URL="../ctl/APVSG module action.ctl"/>
+		<Item Name="Module status.ctl" Type="VI" URL="../ctl/Module status.ctl"/>
 		<Item Name="Synth configs.ctl" Type="VI" URL="../ctl/Synth configs.ctl"/>
 		<Item Name="Synth status.ctl" Type="VI" URL="../ctl/Synth status.ctl"/>
 		<Item Name="THz commands enum.ctl" Type="VI" URL="../ctl/THz commands enum.ctl"/>
@@ -46,6 +48,7 @@ End: - / Master and Follower handle (string)
 		<Item Name="fake THz module.vi" Type="VI" URL="../test/fake THz module.vi"/>
 		<Item Name="THz Test controller.vi" Type="VI" URL="../test/THz Test controller.vi"/>
 	</Item>
+	<Item Name="Initialize APSVG2.vi" Type="VI" URL="../private/Initialize APSVG2.vi"/>
 	<Item Name="Set freq pow and Ch.vi" Type="VI" URL="../private/Set freq pow and Ch.vi"/>
 	<Item Name="THz report connection.vi" Type="VI" URL="../private/THz report connection.vi"/>
 </Library>
