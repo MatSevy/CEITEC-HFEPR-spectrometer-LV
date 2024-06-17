@@ -137,6 +137,9 @@
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
+		<Item Name="Play btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Play btn.ctl"/>
+		<Item Name="Settings btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Settings btn.ctl"/>
+		<Item Name="Stop btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Stop btn.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_Dis-Connect.vi"/>
