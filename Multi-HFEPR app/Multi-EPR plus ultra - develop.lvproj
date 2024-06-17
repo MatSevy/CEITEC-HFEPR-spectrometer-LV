@@ -21,6 +21,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Datatypes" Type="Folder">
+			<Item Name="Connected modules.ctl" Type="VI" URL="../Datatypes/Connected modules.ctl"/>
 			<Item Name="Constant parameters.ctl" Type="VI" URL="../Datatypes/Constant parameters.ctl"/>
 			<Item Name="Dependency.ctl" Type="VI" URL="../Datatypes/Dependency.ctl"/>
 			<Item Name="EPR MAP input.ctl" Type="VI" URL="../Datatypes/EPR MAP input.ctl"/>
@@ -45,7 +46,6 @@
 			<Item Name="Measurement type.ctl" Type="VI" URL="../Datatypes/Measurement type.ctl"/>
 			<Item Name="Modulation parameters.ctl" Type="VI" URL="../Datatypes/Modulation parameters.ctl"/>
 			<Item Name="Module selection.ctl" Type="VI" URL="../Datatypes/Module selection.ctl"/>
-			<Item Name="Mudules status.ctl" Type="VI" URL="../Datatypes/Mudules status.ctl"/>
 			<Item Name="Operators.ctl" Type="VI" URL="../Datatypes/Operators.ctl"/>
 			<Item Name="Orientation sweep.ctl" Type="VI" URL="../Datatypes/Orientation sweep.ctl"/>
 			<Item Name="Primary sweep parameters.ctl" Type="VI" URL="../Datatypes/Primary sweep parameters.ctl"/>
@@ -139,15 +139,13 @@
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_Dis-Connect.vi"/>
-				<Item Name="ANC350v4_Discover.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_Discover.vi"/>
+				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_Dis-Connect.vi"/>
 				<Item Name="ANC350v4_Discover.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_Discover.vi"/>
 				<Item Name="ANC350v4_ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_ErrorHandler.vi"/>
 				<Item Name="ANC350v4_GetActuatorName.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetActuatorName.vi"/>
 				<Item Name="ANC350v4_GetActuatorType.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetActuatorType.vi"/>
 				<Item Name="ANC350v4_GetAxisStatus.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetAxisStatus.vi"/>
 				<Item Name="ANC350v4_GetDeviceConfig.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetDeviceConfig.vi"/>
-				<Item Name="ANC350v4_getDeviceInfo.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4_getDeviceInfo.vi"/>
 				<Item Name="ANC350v4_getDeviceInfo.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_getDeviceInfo.vi"/>
 				<Item Name="ANC350v4_GetFirmwareVersion.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetFirmwareVersion.vi"/>
 				<Item Name="ANC350v4_GetPosition.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_GetPosition.vi"/>
@@ -158,9 +156,7 @@
 				<Item Name="ANC350v4_SetTarget.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_SetTarget.vi"/>
 				<Item Name="ANC350v4_SetTargetRange.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_SetTargetRange.vi"/>
 				<Item Name="ANC350v4_StartAutoMove.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_StartAutoMove.vi"/>
-				<Item Name="ANC350v4sub_Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4sub_Connect.vi"/>
 				<Item Name="ANC350v4sub_Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_Connect.vi"/>
-				<Item Name="ANC350v4sub_Disconnect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350/ANC350_4.2.2_LV12.llb/ANC350v4sub_Disconnect.vi"/>
 				<Item Name="ANC350v4sub_Disconnect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_Disconnect.vi"/>
 				<Item Name="ANC350v4sub_getAmplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_getAmplitude.vi"/>
 				<Item Name="ANC350v4sub_getFrequency.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_getFrequency.vi"/>
@@ -299,7 +295,7 @@
 			<Item Name="ftd2xx.dll" Type="Document" URL="ftd2xx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="../../../../../Windows/System32/kernel32.dll"/>
+			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/System32/kernel32.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Module name.ctl" Type="VI" URL="../../Subsystem modules/Messenger service/Data types/Module name.ctl"/>
 			<Item Name="Motion Properties.ctl" Type="VI" URL="../../Subsystem modules/Sample rotator/ctl/Motion Properties.ctl"/>

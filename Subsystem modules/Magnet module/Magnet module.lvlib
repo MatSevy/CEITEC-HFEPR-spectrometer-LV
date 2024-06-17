@@ -21,7 +21,7 @@
 		<Item Name="MSG to magnet.ctl" Type="VI" URL="../ctl/MSG to magnet.ctl"/>
 		<Item Name="MSG to Tmp_M.ctl" Type="VI" URL="../ctl/MSG to Tmp_M.ctl"/>
 		<Item Name="Overall status.ctl" Type="VI" URL="../ctl/Overall status.ctl"/>
-		<Item Name="Ramping output" Type="VI" URL="../ctl/Ramping output"/>
+		<Item Name="RampingOutput.ctl" Type="VI" URL="../ctl/RampingOutput.ctl"/>
 		<Item Name="SetField data.ctl" Type="VI" URL="../ctl/SetField data.ctl"/>
 		<Item Name="SetField.ctl" Type="VI" URL="../ctl/SetField.ctl"/>
 		<Item Name="TM Revision.ctl" Type="VI" URL="../ctl/TM Revision.ctl"/>

@@ -9,9 +9,9 @@
 </Property>
 	<Item Name="ctl" Type="Folder">
 		<Item Name="ACQ info.ctl" Type="VI" URL="../ctl/ACQ info.ctl"/>
-		<Item Name="ACQ parameters.ctl" Type="VI" URL="../ctl/ACQ parameters.ctl"/>
 		<Item Name="ACQ status.ctl" Type="VI" URL="../ctl/ACQ status.ctl"/>
 		<Item Name="ADQ data.ctl" Type="VI" URL="../ctl/ADQ data.ctl"/>
+		<Item Name="MFLI parameters.ctl" Type="VI" URL="../ctl/MFLI parameters.ctl"/>
 		<Item Name="MFLI_command enum.ctl" Type="VI" URL="../ctl/MFLI_command enum.ctl"/>
 		<Item Name="MFLI_message for module.ctl" Type="VI" URL="../ctl/MFLI_message for module.ctl"/>
 		<Item Name="MFLI_node.ctl" Type="VI" URL="../ctl/MFLI_node.ctl"/>
