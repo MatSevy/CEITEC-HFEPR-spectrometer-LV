@@ -134,9 +134,11 @@
 			<Item Name="Write in logger.vi" Type="VI" URL="../TopSubVIs/Write in logger.vi"/>
 		</Item>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
+		<Item Name="Equalize.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Equalize.ctl"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
+		<Item Name="Pause btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Pause btn.ctl"/>
 		<Item Name="Play btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Play btn.ctl"/>
 		<Item Name="Settings btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Settings btn.ctl"/>
 		<Item Name="Stop btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Stop btn.ctl"/>
