@@ -133,15 +133,29 @@
 			<Item Name="verify executabiity of line.vi" Type="VI" URL="../TopSubVIs/verify executabiity of line.vi"/>
 			<Item Name="Write in logger.vi" Type="VI" URL="../TopSubVIs/Write in logger.vi"/>
 		</Item>
+		<Item Name="Cancel btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Cancel btn.ctl"/>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
+		<Item Name="Delete btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Delete btn.ctl"/>
+		<Item Name="Down btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Down btn.ctl"/>
+		<Item Name="DownGreen btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/DownGreen btn.ctl"/>
 		<Item Name="Equalize.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Equalize.ctl"/>
+		<Item Name="File path.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/File path.ctl"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
+		<Item Name="LeftGreen btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/LeftGreen btn.ctl"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
+		<Item Name="Open file btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Open file btn.ctl"/>
+		<Item Name="Paste btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Paste btn.ctl"/>
 		<Item Name="Pause btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Pause btn.ctl"/>
 		<Item Name="Play btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Play btn.ctl"/>
+		<Item Name="Righ green btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Righ green btn.ctl"/>
+		<Item Name="Save btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Save btn.ctl"/>
 		<Item Name="Settings btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Settings btn.ctl"/>
 		<Item Name="Stop btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Stop btn.ctl"/>
+		<Item Name="Stop process btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Stop process btn.ctl"/>
+		<Item Name="Tools btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Tools btn.ctl"/>
+		<Item Name="Up btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Up btn.ctl"/>
+		<Item Name="UpGreen btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/UpGreen btn.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_Dis-Connect.vi"/>
