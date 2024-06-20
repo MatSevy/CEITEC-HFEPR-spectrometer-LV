@@ -133,8 +133,11 @@
 			<Item Name="verify executabiity of line.vi" Type="VI" URL="../TopSubVIs/verify executabiity of line.vi"/>
 			<Item Name="Write in logger.vi" Type="VI" URL="../TopSubVIs/Write in logger.vi"/>
 		</Item>
+		<Item Name="Acquisition controls.ctl" Type="VI" URL="../Datatypes/Acquisition controls.ctl"/>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
+		<Item Name="Go backward btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Go backward btn.ctl"/>
+		<Item Name="Go forward btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Go forward btn.ctl"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
 		<Item Name="Record btn.ctl" Type="VI" URL="/&lt;userlib&gt;/MatS Libs/FP controls/Record btn.ctl"/>
