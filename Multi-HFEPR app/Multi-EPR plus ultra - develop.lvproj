@@ -171,9 +171,9 @@
 				<Item Name="Create Bytes.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Create Bytes.vi"/>
 				<Item Name="Create command stream.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Create command stream.vi"/>
 				<Item Name="Create freq bytes.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Create freq bytes.vi"/>
-				<Item Name="Cryogenic Ltd SMSXXX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/SMS drivers/Cryogenic Ltd SMSXXX.lvlib"/>
+				<Item Name="Cryogenic Ltd SMSXXX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/SMS 120/Cryogenic Ltd SMSXXX.lvlib"/>
 				<Item Name="Determine opt step time, size.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Determine opt step time, size.vi"/>
-				<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/APVSG/Low level driver/Enable Output.vi"/>
+				<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/APVSG/Public/Action-Status/Enable Output.vi"/>
 				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Close_Device.vi"/>
 				<Item Name="FT_Get_Device_Info.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Get_Device_Info.vi"/>
 				<Item Name="FT_Get_Device_Serial_Number_By_Index.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Get_Device_Serial_Number_By_Index.vi"/>
@@ -182,12 +182,19 @@
 				<Item Name="FT_Read_Byte_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Read_Byte_Data.vi"/>
 				<Item Name="FT_Reset_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Reset_Device.vi"/>
 				<Item Name="FT_Write_Byte_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/FT_Write_Byte_Data.vi"/>
+				<Item Name="Get Output.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Data/Get Output.vi"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 				<Item Name="Lake Shore 350.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 350/Lake Shore 350.lvlib"/>
 				<Item Name="Lake Shore Cryotronics 218.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 218/Lake Shore Cryotronics 218.lvlib"/>
 				<Item Name="Open USB device.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Open USB device.vi"/>
+				<Item Name="PSU Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/PSU Status.ctl"/>
 				<Item Name="Reset Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Reset Trigger.vi"/>
 				<Item Name="Send data.vi" Type="VI" URL="/&lt;instrlib&gt;/VDI/VDI tracking synthesizer.llb/Send data.vi"/>
+				<Item Name="Set Current Direction.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Configure/Set Current Direction.vi"/>
+				<Item Name="Set Heater.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Set Heater.vi"/>
+				<Item Name="Set MID.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Configure/Set MID.vi"/>
+				<Item Name="Set Pause.vi" Type="VI" URL="/&lt;instrlib&gt;/SMS drivers/Public/Action-Status/Set Pause.vi"/>
+				<Item Name="SMS.rtm" Type="Document" URL="/&lt;instrlib&gt;/SMS 120/Examples/SMS.rtm"/>
 				<Item Name="Zurich Instruments LabOne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Zurich Instruments LabOne.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
