@@ -136,11 +136,13 @@
 			<Item Name="verify executabiity of line.vi" Type="VI" URL="../TopSubVIs/verify executabiity of line.vi"/>
 			<Item Name="Write in logger.vi" Type="VI" URL="../TopSubVIs/Write in logger.vi"/>
 		</Item>
+		<Item Name="Application tabs.ctl" Type="VI" URL="../Datatypes/Application tabs.ctl"/>
 		<Item Name="CW-main.vi" Type="VI" URL="../CW-main.vi"/>
 		<Item Name="FS-EPR(FDMR)-main.vi" Type="VI" URL="../FS-EPR(FDMR)-main.vi"/>
 		<Item Name="Mapper-main.vi" Type="VI" URL="../Mapper-main.vi"/>
 		<Item Name="MessengerLib.lvlib" Type="Library" URL="../../Subsystem modules/Messenger service/MessengerLib.lvlib"/>
 		<Item Name="Process rotator axes info.vi" Type="VI" URL="../TopSubVIs/Process rotator axes info.vi"/>
+		<Item Name="United-main.vi" Type="VI" URL="../United-main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ANC350v4_Dis-Connect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4_Dis-Connect.vi"/>
@@ -163,7 +165,6 @@
 				<Item Name="ANC350v4sub_Disconnect.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_Disconnect.vi"/>
 				<Item Name="ANC350v4sub_getAmplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_getAmplitude.vi"/>
 				<Item Name="ANC350v4sub_getFrequency.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_getFrequency.vi"/>
-				<Item Name="ANC350v4sub_selectActuator_RES.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_selectActuator_RES.vi"/>
 				<Item Name="ANC350v4sub_setAmplitude.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_setAmplitude.vi"/>
 				<Item Name="ANC350v4sub_setFrequency.vi" Type="VI" URL="/&lt;instrlib&gt;/ANC350_LabView/ANC350_4.2.5_LV16.llb/ANC350v4sub_setFrequency.vi"/>
 				<Item Name="APVSG20.lvlib" Type="Library" URL="/&lt;instrlib&gt;/APVSG/APVSG20.lvlib"/>
@@ -303,7 +304,7 @@
 			<Item Name="EAL" Type="VI" URL="EAL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
+			<Item Name="ftd2xx.dll" Type="Document" URL="ftd2xx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Is equal in tolerance.vi" Type="VI" URL="../TopSubVIs/Is equal in tolerance.vi"/>

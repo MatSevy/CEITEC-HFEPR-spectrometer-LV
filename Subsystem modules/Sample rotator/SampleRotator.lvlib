@@ -27,14 +27,16 @@ List of files:
 	<Item Name="Private" Type="Folder">
 		<Item Name="Connect and init controller.vi" Type="VI" URL="../Private/Connect and init controller.vi"/>
 		<Item Name="Extract message by Rotator.vi" Type="VI" URL="../Private/Extract message by Rotator.vi"/>
-		<Item Name="Find drivers DLL.vi" Type="VI" URL="../Private/Find drivers DLL.vi"/>
 		<Item Name="Get axis info.vi" Type="VI" URL="../Private/Get axis info.vi"/>
+		<Item Name="Get axis quick info.vi" Type="VI" URL="../Private/Get axis quick info.vi"/>
+		<Item Name="Handle path to driver DLL.vi" Type="VI" URL="../Private/Handle path to driver DLL.vi"/>
 		<Item Name="Set motion parameters.vi" Type="VI" URL="../Private/Set motion parameters.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="fake SampleRotator module.vi" Type="VI" URL="../Public/fake SampleRotator module.vi"/>
 		<Item Name="Initialize ANC350v4, and read Axis-1 info..vi" Type="VI" URL="../Public/Initialize ANC350v4, and read Axis-1 info..vi"/>
-		<Item Name="SampleRotator main.vi" Type="VI" URL="../Public/SampleRotator main.vi"/>
+		<Item Name="PiezoController main.vi" Type="VI" URL="../Public/PiezoController main.vi"/>
 		<Item Name="test Controller.vi" Type="VI" URL="../Public/test Controller.vi"/>
 	</Item>
+	<Item Name="Handle path to LUT.vi" Type="VI" URL="../Private/Handle path to LUT.vi"/>
 </Library>
